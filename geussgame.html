@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header>
+        <h1>Guess the Number Game</h1>
+        <nav>
+            <button id="openGameBtn">Open Game</button>
+            <button id="levelsGameBtn">Levels Game</button>
+        </nav>
+    </header>
+    <div class="container">
+        <p id="levelIndicator" style="display: none;"></p>
+        <input type="number" id="inp" placeholder="Enter your guess">
+        <button id="submit">Guess!</button>
+        <p id="msg"></p>
+        <p>Attempts: <span id="Attempt">0</span></p>
+        <button id="resBtn" style="display: none;">Restart again</button>
+        <button id="hintBtn" style="display: none;">Show Hint</button>
+        <p id="hint" style="display: none;">Hint: </p>
+        <p id="hintsLeft" style="display: none;">Hints left: <span id="hintCount">0</span></p>
+    </div>
+
+    <script src="./game.js"></script>
+</body>
+</html>
+
