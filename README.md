@@ -1,5 +1,5 @@
 
-GUESS THE NUMBER!
+#GUESS THE NUMBER!
 
 This is a game about guessing a number if the player's guessed number matches the randomly computer generated number then you won.
 To make it more Interesting and challenging I have added two modes in the game.
